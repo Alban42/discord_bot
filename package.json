@@ -5,22 +5,11 @@
   "private": true,
   "main": "start.js",
   "scripts": {
-    "install": "npm install discord.js,
-    "start": "node --use_strict node.js"
+    "start": "node --use_strict start.js"
   },
   "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hydrabolt/discord.js.git"
-  },
-  "devDependencies": {
-    "@types/node": "^7.0.0",
-    "discord.js-docgen": "hydrabolt/discord.js-docgen",
-    "eslint": "^3.19.0",
-    "parallel-webpack": "^1.6.0",
-    "uglify-js": "mishoo/UglifyJS2#harmony-v2.8.22",
-    "uglifyjs-webpack-plugin": "^0.4.3",
-    "webpack": "^2.2.0"
+  "dependencies": {
+    "discord.js": "^11.1.0"
   }
 }
