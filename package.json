@@ -3,10 +3,23 @@
   "version": "1.0.1",
   "description": "Custom Node.js cartridge for OpenShift - sample application",
   "private": true,
-  "main": "start.js",
+  "main": "node.js",
   "scripts": {
     "start": "node --use_strict start.js"
   },
   "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hydrabolt/discord.js.git"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.0",
+    "discord.js-docgen": "hydrabolt/discord.js-docgen",
+    "eslint": "^3.19.0",
+    "parallel-webpack": "^1.6.0",
+    "uglify-js": "mishoo/UglifyJS2#harmony-v2.8.22",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.2.0"
+  }
 }
