@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node --use_strict start.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
+  "author": "Alban",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.1.0"
