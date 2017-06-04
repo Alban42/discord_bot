@@ -1,7 +1,7 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
+  "name": "Discord bot",
   "version": "1.0.1",
-  "description": "Discord bot",
+  "description": "Discord bot for team creation",
   "private": true,
   "main": "node.js",
   "scripts": {
