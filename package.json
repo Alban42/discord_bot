@@ -1,7 +1,7 @@
 {
   "name": "openshift-cartridge-nodejs-template",
   "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
+  "description": "Discord bot",
   "private": true,
   "main": "node.js",
   "scripts": {
